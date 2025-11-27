@@ -10,6 +10,7 @@ A small demo project to showcase the performance degradation when upgrading from
 - Run the "front-end" with `npm run dev`
 - The front-end will make some request sequentials as well as two blocks of concurrent requests.
   - Both individual response times as well as the average time is significantly higher on dotnet 9/10 on the first run
+- To test different version you only need to change the <TargetFramework> from net8.0 to net9.0 or net10.0
 
 ## Testing results
 
